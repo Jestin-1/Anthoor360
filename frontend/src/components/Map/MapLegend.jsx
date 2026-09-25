@@ -90,21 +90,15 @@ export default function MapLegend() {
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <span style={{ width: '14px', height: '3px', backgroundColor: '#0D9488', borderRadius: '2px' }}></span>
+              <span style={{ width: '14px', height: '4px', backgroundColor: '#0284C7', borderRadius: '2px' }}></span>
               <span style={{ fontSize: '0.72rem', color: '#334155', fontWeight: 600 }}>
-                {language === 'ml' ? '28 വാർഡുകൾ' : '28 Wards'}
+                {language === 'ml' ? 'വളപട്ടണം പുഴ' : 'River & Wetlands'}
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
               <span style={{ width: '14px', height: '3px', backgroundColor: '#F59E0B', borderRadius: '2px' }}></span>
               <span style={{ fontSize: '0.72rem', color: '#334155', fontWeight: 600 }}>
                 {language === 'ml' ? 'പ്രധാന റോഡുകൾ' : 'NH 66 / Roads'}
-              </span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <span style={{ width: '14px', height: '4px', backgroundColor: '#0284C7', borderRadius: '2px' }}></span>
-              <span style={{ fontSize: '0.72rem', color: '#334155', fontWeight: 600 }}>
-                {language === 'ml' ? 'വളപട്ടണം പുഴ' : 'River & Wetlands'}
               </span>
             </div>
           </div>

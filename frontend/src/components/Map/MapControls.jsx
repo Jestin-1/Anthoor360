@@ -64,7 +64,6 @@ export default function MapControls({
   const layerOptions = [
     { key: 'maskOutside', label: 'Isolate Anthoor / നഗരസഭ മാത്രം', color: '#10B981' },
     { key: 'facilities', label: 'Facilities / സ്ഥാപനങ്ങൾ', color: '#059669' },
-    { key: 'wards', label: 'Wards / വാർഡുകൾ (28)', color: '#0D9488' },
     { key: 'roads', label: 'Roads / റോഡുകൾ (Corridors)', color: '#F59E0B' },
     { key: 'waterways', label: 'River & Mangroves / പുഴ & കണ്ടൽ', color: '#0284C7' },
     { key: 'projects', label: 'Projects / വികസന പദ്ധതികൾ', color: '#F97316' },

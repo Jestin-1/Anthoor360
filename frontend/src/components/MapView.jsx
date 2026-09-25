@@ -10,7 +10,6 @@ import MapSidebar from './MapSidebar';
 // Modular Map Sub-components
 import MarkerClusterGroup from './Map/MarkerClusterGroup';
 import MunicipalityBoundary from './Map/MunicipalityBoundary';
-import WardLayer from './Map/WardLayer';
 import RoadLayer from './Map/RoadLayer';
 import ProjectsLayer from './Map/ProjectsLayer';
 import BusinessLayer from './Map/BusinessLayer';
@@ -86,7 +85,6 @@ export default function MapView({
   const [activeLayers, setActiveLayers] = useState({
     boundary: true,
     maskOutside: true,
-    wards: true,
     roads: true,
     waterways: true,
     facilities: true,
@@ -797,16 +795,6 @@ export default function MapView({
           }}
         />
 
-        {/* 3. Ward Boundaries Layer (28 Wards) */}
-        <WardLayer
-          visible={activeLayers.wards}
-          selectedWardId={selectedWard}
-          onSelectWard={(ward) => {
-            setSelectedWard(String(ward.number));
-            setMapCenter(ward.coordinates);
-            setMapZoom(15);
-          }}
-        />
 
         {/* 4. Major Arterial & Collector Roads GIS Layer */}
         <RoadLayer
