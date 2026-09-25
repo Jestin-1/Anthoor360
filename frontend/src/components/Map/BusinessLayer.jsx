@@ -7,11 +7,11 @@ import { Store, Star, Phone, ShieldCheck, MapPin } from 'lucide-react';
 
 // Coordinates mapping for local business directory
 const BUSINESS_COORDINATES = {
-  'dir-1': [11.9740, 75.3850], // Malabar Bakers near GCEK gate
-  'dir-2': [11.9775, 75.3815], // Dharmasala Medicals near CHC
-  'dir-3': [11.9595, 75.4070], // Parassinikkadavu Traditional Brass
-  'dir-4': [11.9755, 75.3825], // Apex Auto Care NH 66
-  'dir-5': [11.9740, 75.3865]  // Silicon CAD Photostat College Rd
+  'dir-1': [11.9860, 75.3815], // Malabar Bakers near GCEK gate
+  'dir-2': [11.9868, 75.3785], // Dharmasala Medicals near CHC
+  'dir-3': [11.9829, 75.4010], // Parassinikkadavu Traditional Brass
+  'dir-4': [11.9855, 75.3760], // Apex Auto Care NH 66
+  'dir-5': [11.9855, 75.3825]  // Silicon CAD Photostat College Rd
 };
 
 export default function BusinessLayer({ visible = true, onSelectBusiness }) {
@@ -21,7 +21,7 @@ export default function BusinessLayer({ visible = true, onSelectBusiness }) {
   return (
     <>
       {DIRECTORY_ENTRIES.filter(b => b.verified).map((biz) => {
-        const coords = BUSINESS_COORDINATES[biz.id] || [11.9734, 75.3852];
+        const coords = BUSINESS_COORDINATES[biz.id] || [11.9865, 75.3780];
         const businessIcon = createCategoryMarkerIcon(biz);
 
         return (

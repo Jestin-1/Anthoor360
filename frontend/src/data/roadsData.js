@@ -14,14 +14,15 @@ export const ANTHOOR_ROADS = [
     wards: "Wards 7, 8, 17, 28",
     description: "Primary arterial corridor connecting Kannur to Taliparamba and Mangalore via Dharmasala junction.",
     coordinates: [
-      [11.9520, 75.3810],
-      [11.9610, 75.3830],
-      [11.9680, 75.3850],
-      [11.9730, 75.3850], // Dharmasala Junction
-      [11.9790, 75.3830],
-      [11.9840, 75.3780], // Bakkalam
-      [11.9920, 75.3700],
-      [11.9990, 75.3620]
+      [11.9540, 75.3600], // Pappinisseri / Aroli entry
+      [11.9680, 75.3620], // Aroli
+      [11.9780, 75.3700], // Podikkalam approach
+      [11.9848, 75.3765], // Dharmasala South
+      [11.9865, 75.3763], // Dharmasala Junction
+      [11.9900, 75.3715], // North of Dharmasala
+      [11.9974, 75.3708], // Bakkalam Junction
+      [12.0061, 75.3694], // Kolmotta link
+      [12.0200, 75.3657]  // Heading towards Taliparamba
     ]
   },
   {
@@ -37,13 +38,13 @@ export const ANTHOOR_ROADS = [
     wards: "Wards 7, 9, 10, 11",
     description: "Famous pilgrimage route leading to Sree Muthappan Madappura, Snake Park, and Vismaya Park along Valapattanam River.",
     coordinates: [
-      [11.9730, 75.3850], // Dharmasala Junction
-      [11.9710, 75.3890],
-      [11.9680, 75.3940],
-      [11.9655, 75.3980], // Vismaya Junction
-      [11.9635, 75.4010], // Snake Park
-      [11.9610, 75.4045],
-      [11.9592, 75.4072]  // Parassinikkadavu Temple Gate
+      [11.9865, 75.3763], // Dharmasala Junction
+      [11.9883, 75.3894], // Parassinikkadavu Road
+      [11.9893, 75.3885], // Snake Park Gate
+      [11.9900, 75.3937], // Vismaya Amusement Park
+      [11.9839, 75.3987], // Parassini Bus Stand
+      [11.9828, 75.4013], // Muthappan Temple Gate
+      [11.9850, 75.4045]  // Parassinikkadavu Bridge
     ]
   },
   {
@@ -59,13 +60,13 @@ export const ANTHOOR_ROADS = [
     wards: "Wards 1, 2, 3, 4, 6, 7",
     description: "Historic corridor connecting Dharmasala to the 1940 Morazha Peasant Monument and Vellikkeel Mangrove Eco Park.",
     coordinates: [
-      [11.9730, 75.3850], // Dharmasala
-      [11.9780, 75.3770], // Anthoor North
-      [11.9820, 75.3710],
-      [11.9860, 75.3620], // Morazha Peasant Memorial
-      [11.9910, 75.3610],
-      [11.9950, 75.3600], // Kanool
-      [12.0010, 75.3520]  // Vellikkeel Mangrove Boardwalk
+      [11.9865, 75.3763], // Dharmasala
+      [11.9870, 75.3600], // Morazha Central Road
+      [11.9872, 75.3522], // Historic Morazha Memorial & HSS
+      [11.9894, 75.3384], // Morazha West
+      [12.0018, 75.3422], // Poothamchal - Vellikkeel Road
+      [12.0047, 75.3420], // Vellikkeel Eco Park Entrance
+      [12.0302, 75.3408]  // Vellikkeel Junction Bus Stop
     ]
   },
   {
@@ -81,11 +82,11 @@ export const ANTHOOR_ROADS = [
     wards: "Wards 20, 21, 22",
     description: "Access highway linking Government Engineering College Kannur, NIFT Kannur campus, and Kannur University.",
     coordinates: [
-      [11.9750, 75.3840],
-      [11.9745, 75.3860], // GCEK Gate
-      [11.9710, 75.3880],
-      [11.9680, 75.3895], // NIFT Campus
-      [11.9650, 75.3880]  // Kannur University Campus
+      [11.9865, 75.3763], // Dharmasala Junction
+      [11.9892, 75.3795], // NIFT Kannur Campus Gate
+      [11.9858, 75.3819], // Government Engineering College Kannur (GCEK)
+      [11.9838, 75.3667], // Mizone Innovation Center
+      [11.9824, 75.3654]  // Kannur University Mangattuparamba Campus
     ]
   },
   {
@@ -101,11 +102,11 @@ export const ANTHOOR_ROADS = [
     wards: "Wards 12, 13, 23, 24",
     description: "Scenic southern boundary link traversing lush coconut groves alongside Valapattanam river.",
     coordinates: [
-      [11.9510, 75.3680], // Aroli Central
-      [11.9540, 75.3720], // Aroli East
-      [11.9560, 75.3800], // Kalliasseri Boundary
-      [11.9580, 75.3920],
-      [11.9560, 75.4020]  // Riverfront Gate
+      [11.9686, 75.3443], // Kalliasseri Boundary
+      [11.9620, 75.3620], // Punnakkulangara Link
+      [11.9560, 75.3680], // Aroli Central
+      [11.9620, 75.3720], // Aroli East Riverfront
+      [11.9750, 75.3900]  // River road towards Parassinikkadavu
     ]
   },
   {
@@ -121,9 +122,9 @@ export const ANTHOOR_ROADS = [
     wards: "Wards 18, 19",
     description: "Heavy logistics access route connecting NH 66 Bakkalam to the KINFRA Apparel & Industrial complex.",
     coordinates: [
-      [11.9820, 75.3780], // Bakkalam on NH 66
-      [11.9820, 75.3850], // Kadambur Link
-      [11.9820, 75.3910]  // Kinfra Gate
+      [11.9974, 75.3708], // Bakkalam on NH 66
+      [11.9953, 75.3783], // Kadambery Link
+      [11.9920, 75.3780]  // Kinfra Gate
     ]
   }
 ];

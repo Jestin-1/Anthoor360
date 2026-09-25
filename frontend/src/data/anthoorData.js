@@ -12,24 +12,30 @@ export const MUNICIPALITY_INFO = {
   population: "30,000+",
   headquarters: "Dharmasala",
   headquarters_ml: "ധർമ്മശാല",
-  centerCoordinates: [11.9734, 75.3852], // Dharmasala, Kannur
+  centerCoordinates: [11.9865, 75.3780], // Dharmasala, Kannur (Municipal Headquarters)
   bounds: [
-    [11.945, 75.340],
-    [12.015, 75.420]
+    [11.9480, 75.3350],
+    [12.0350, 75.4120]
   ],
   // Simplified realistic polygon of Anthoor Municipality along Valapattanam river and NH 66
   boundaryPolygon: [
-    [11.9950, 75.3500],
-    [12.0120, 75.3620],
-    [11.9980, 75.3900],
-    [11.9850, 75.4050],
-    [11.9680, 75.4120],
-    [11.9560, 75.4080],
-    [11.9500, 75.3950],
-    [11.9550, 75.3720],
-    [11.9650, 75.3580],
-    [11.9820, 75.3480],
-    [11.9950, 75.3500]
+    [12.0300, 75.3400], // Vellikkeel North / Poothamchal
+    [12.0250, 75.3520], // North Morazha Hills
+    [12.0150, 75.3680], // Bakkalam North / Taliparamba border
+    [12.0050, 75.3850], // Kadambery North-East
+    [11.9960, 75.3980], // Kolmotta / Muyyam border
+    [11.9880, 75.4080], // Parassinikkadavu North
+    [11.9840, 75.4050], // Parassini River Bridge
+    [11.9828, 75.4015], // Parassinikkadavu Sree Muthappan Madappura Riverfront
+    [11.9750, 75.3950], // Valapattanam River bend south
+    [11.9650, 75.3800], // Narath / Aroli Riverfront
+    [11.9520, 75.3650], // Aroli South / Pappinisseri border
+    [11.9580, 75.3550], // South-West border
+    [11.9686, 75.3440], // Kalliasseri boundary
+    [11.9820, 75.3440], // Morazha South-West
+    [11.9920, 75.3380], // Morazha West
+    [12.0080, 75.3390], // Vellikkeel Mangrove approach
+    [12.0300, 75.3400]  // Closing ring at Vellikkeel North
   ]
 };
 
@@ -107,34 +113,34 @@ export const CATEGORIES = [
 ];
 
 export const WARDS = [
-  { id: 1, number: 1, name: "Morazha Central", name_ml: "മൊറാഴ സെൻട്രൽ", councillor: "K. Narayanan", phone: "9447123001", population: 1320, coordinates: [11.9865, 75.3625], facilitiesCount: 6 },
-  { id: 2, number: 2, name: "Morazha West", name_ml: "മൊറാഴ വെസ്റ്റ്", councillor: "P. V. Valsala", phone: "9447123002", population: 1280, coordinates: [11.9890, 75.3550], facilitiesCount: 4 },
-  { id: 3, number: 3, name: "Kanool", name_ml: "കാനൂൽ", councillor: "M. K. Suresh", phone: "9447123003", population: 1410, coordinates: [11.9950, 75.3650], facilitiesCount: 3 },
-  { id: 4, number: 4, name: "Vellikkeel", name_ml: "വെള്ളിക്കീൽ", councillor: "S. Kamala", phone: "9447123004", population: 1190, coordinates: [12.0010, 75.3520], facilitiesCount: 5 },
-  { id: 5, number: 5, name: "Mayyil Link", name_ml: "മയ്യിൽ ലിങ്ക്", councillor: "T. Rajan", phone: "9447123005", population: 1240, coordinates: [11.9810, 75.3720], facilitiesCount: 4 },
-  { id: 6, number: 6, name: "Anthoor North", name_ml: "ആന്തൂർ നോർത്ത്", councillor: "C. Mini", phone: "9447123006", population: 1390, coordinates: [11.9780, 75.3770], facilitiesCount: 7 },
-  { id: 7, number: 7, name: "Dharmasala Central", name_ml: "ധർമ്മശാല സെൻട്രൽ", councillor: "P. Mukundan (Chairperson)", phone: "9447123007", population: 1650, coordinates: [11.9734, 75.3852], facilitiesCount: 14 },
-  { id: 8, number: 8, name: "Mangattuparamba", name_ml: "മാങ്ങാട്ടുപറമ്പ്", councillor: "V. Geetha", phone: "9447123008", population: 1580, coordinates: [11.9680, 75.3895], facilitiesCount: 11 },
-  { id: 9, number: 9, name: "Parassinikkadavu North", name_ml: "പറശ്ശിനിക്കടവ് നോർത്ത്", councillor: "R. Balakrishnan", phone: "9447123009", population: 1420, coordinates: [11.9635, 75.4010], facilitiesCount: 8 },
-  { id: 10, number: 10, name: "Parassinikkadavu Temple", name_ml: "പറശ്ശിനിക്കടവ് ക്ഷേത്രം", councillor: "K. Shailaja", phone: "9447123010", population: 1510, coordinates: [11.9592, 75.4072], facilitiesCount: 12 },
-  { id: 11, number: 11, name: "Vismaya Junction", name_ml: "വിസ്മയ ജംഗ്ഷൻ", councillor: "M. Babu", phone: "9447123011", population: 1330, coordinates: [11.9655, 75.3980], facilitiesCount: 6 },
-  { id: 12, number: 12, name: "Aroli East", name_ml: "ആരോളി ഈസ്റ്റ്", councillor: "P. Devaki", phone: "9447123012", population: 1210, coordinates: [11.9540, 75.3720], facilitiesCount: 5 },
-  { id: 13, number: 13, name: "Aroli Central", name_ml: "ആരോളി സെൻട്രൽ", councillor: "T. K. Satheesh", phone: "9447123013", population: 1290, coordinates: [11.9510, 75.3680], facilitiesCount: 4 },
-  { id: 14, number: 14, name: "Punnakkulangara", name_ml: "പുന്നക്കുളങ്ങര", councillor: "K. Rema", phone: "9447123014", population: 1180, coordinates: [11.9620, 75.3620], facilitiesCount: 4 },
-  { id: 15, number: 15, name: "Podikkalam", name_ml: "പൊടിക്കളം", councillor: "E. Vijayan", phone: "9447123015", population: 1250, coordinates: [11.9700, 75.3690], facilitiesCount: 3 },
-  { id: 16, number: 16, name: "Kuttikkol", name_ml: "കുറ്റിക്കോൽ", councillor: "N. Vineetha", phone: "9447123016", population: 1340, coordinates: [11.9750, 75.3640], facilitiesCount: 4 },
-  { id: 17, number: 17, name: "Bakkalam", name_ml: "ബക്കളം", councillor: "C. H. Musthafa", phone: "9447123017", population: 1400, coordinates: [11.9820, 75.3780], facilitiesCount: 5 },
-  { id: 18, number: 18, name: "Kadambur Link", name_ml: "കടമ്പൂർ ലിങ്ക്", councillor: "M. Savithri", phone: "9447123018", population: 1150, coordinates: [11.9850, 75.3850], facilitiesCount: 3 },
-  { id: 19, number: 19, name: "Kinfra Industrial", name_ml: "കിൻഫ്ര വ്യവസായ വാർഡ്", councillor: "A. P. Soman", phone: "9447123019", population: 1050, coordinates: [11.9820, 75.3910], facilitiesCount: 7 },
-  { id: 20, number: 20, name: "Engineering College", name_ml: "എൻജിനീയറിങ് കോളേജ് വാർഡ്", councillor: "Dr. P. Radhika", phone: "9447123020", population: 1620, coordinates: [11.9745, 75.3860], facilitiesCount: 9 },
-  { id: 21, number: 21, name: "NIFT Campus Ward", name_ml: "നിഫ്റ്റ് കാമ്പസ് വാർഡ്", councillor: "K. Preethi", phone: "9447123021", population: 1480, coordinates: [11.9680, 75.3895], facilitiesCount: 8 },
-  { id: 22, number: 22, name: "University Campus", name_ml: "സർവ്വകലാശാല കാമ്പസ് വാർഡ്", councillor: "S. Manoj", phone: "9447123022", population: 1520, coordinates: [11.9650, 75.3880], facilitiesCount: 7 },
-  { id: 23, number: 23, name: "Kalliasseri Boundary", name_ml: "കല്യാശ്ശേരി അതിർത്തി", councillor: "V. Chandran", phone: "9447123023", population: 1270, coordinates: [11.9600, 75.3800], facilitiesCount: 4 },
-  { id: 24, number: 24, name: "Valapattanam Riverbank", name_ml: "വളപട്ടണം റിവർഫ്രണ്ട്", councillor: "M. Sujatha", phone: "9447123024", population: 1310, coordinates: [11.9560, 75.4020], facilitiesCount: 5 },
-  { id: 25, number: 25, name: "Muthappan Kavu", name_ml: "മുത്തപ്പൻ കാവ്", councillor: "T. Haridasan", phone: "9447123025", population: 1220, coordinates: [11.9610, 75.4080], facilitiesCount: 6 },
-  { id: 26, number: 26, name: "Pazhayangadi Road", name_ml: "പഴയങ്ങാടി റോഡ്", councillor: "K. Prasanna", phone: "9447123026", population: 1190, coordinates: [11.9980, 75.3580], facilitiesCount: 3 },
-  { id: 27, number: 27, name: "Morazha South", name_ml: "മൊറാഴ തെക്ക്", councillor: "P. Raghu", phone: "9447123027", population: 1260, coordinates: [11.9820, 75.3600], facilitiesCount: 4 },
-  { id: 28, number: 28, name: "Anthoor Town Gate", name_ml: "ആന്തൂർ ടൗൺ ഗേറ്റ്", councillor: "V. Sumathy", phone: "9447123028", population: 1380, coordinates: [11.9750, 75.3820], facilitiesCount: 8 }
+  { id: 1, number: 1, name: "Morazha Central", name_ml: "മൊറാഴ സെൻട്രൽ", councillor: "K. Narayanan", phone: "9447123001", population: 1320, coordinates: [11.9872, 75.3522], facilitiesCount: 6 },
+  { id: 2, number: 2, name: "Morazha West", name_ml: "മൊറാഴ വെസ്റ്റ്", councillor: "P. V. Valsala", phone: "9447123002", population: 1280, coordinates: [11.9894, 75.3384], facilitiesCount: 4 },
+  { id: 3, number: 3, name: "Kanool", name_ml: "കാനൂൽ", councillor: "M. K. Suresh", phone: "9447123003", population: 1410, coordinates: [12.0015, 75.3637], facilitiesCount: 3 },
+  { id: 4, number: 4, name: "Vellikkeel", name_ml: "വെള്ളിക്കീൽ", councillor: "S. Kamala", phone: "9447123004", population: 1190, coordinates: [12.0047, 75.342], facilitiesCount: 5 },
+  { id: 5, number: 5, name: "Mayyil Link", name_ml: "മയ്യിൽ ലിങ്ക്", councillor: "T. Rajan", phone: "9447123005", population: 1240, coordinates: [11.984, 75.372], facilitiesCount: 4 },
+  { id: 6, number: 6, name: "Anthoor North", name_ml: "ആന്തൂർ നോർത്ത്", councillor: "C. Mini", phone: "9447123006", population: 1390, coordinates: [11.9889, 75.3863], facilitiesCount: 7 },
+  { id: 7, number: 7, name: "Dharmasala Central", name_ml: "ധർമ്മശാല സെൻട്രൽ", councillor: "P. Mukundan (Chairperson)", phone: "9447123007", population: 1650, coordinates: [11.9865, 75.3765], facilitiesCount: 14 },
+  { id: 8, number: 8, name: "Mangattuparamba", name_ml: "മാങ്ങാട്ടുപറമ്പ്", councillor: "V. Geetha", phone: "9447123008", population: 1580, coordinates: [11.9795, 75.3731], facilitiesCount: 11 },
+  { id: 9, number: 9, name: "Parassinikkadavu North", name_ml: "പറശ്ശിനിക്കടവ് നോർത്ത്", councillor: "R. Balakrishnan", phone: "9447123009", population: 1420, coordinates: [11.9893, 75.3885], facilitiesCount: 8 },
+  { id: 10, number: 10, name: "Parassinikkadavu Temple", name_ml: "പറശ്ശിനിക്കടവ് ക്ഷേത്രം", councillor: "K. Shailaja", phone: "9447123010", population: 1510, coordinates: [11.9828, 75.4013], facilitiesCount: 12 },
+  { id: 11, number: 11, name: "Vismaya Junction", name_ml: "വിസ്മയ ജംഗ്ഷൻ", councillor: "M. Babu", phone: "9447123011", population: 1330, coordinates: [11.99, 75.3937], facilitiesCount: 6 },
+  { id: 12, number: 12, name: "Aroli East", name_ml: "ആരോളി ഈസ്റ്റ്", councillor: "P. Devaki", phone: "9447123012", population: 1210, coordinates: [11.962, 75.372], facilitiesCount: 5 },
+  { id: 13, number: 13, name: "Aroli Central", name_ml: "ആരോളി സെൻട്രൽ", councillor: "T. K. Satheesh", phone: "9447123013", population: 1290, coordinates: [11.956, 75.368], facilitiesCount: 4 },
+  { id: 14, number: 14, name: "Punnakkulangara", name_ml: "പുന്നക്കുളങ്ങര", councillor: "K. Rema", phone: "9447123014", population: 1180, coordinates: [11.9904, 75.3684], facilitiesCount: 4 },
+  { id: 15, number: 15, name: "Podikkalam", name_ml: "പൊടിക്കളം", councillor: "E. Vijayan", phone: "9447123015", population: 1250, coordinates: [11.9758, 75.3719], facilitiesCount: 3 },
+  { id: 16, number: 16, name: "Kuttikkol", name_ml: "കുറ്റിക്കോൽ", councillor: "N. Vineetha", phone: "9447123016", population: 1340, coordinates: [11.9773, 75.3709], facilitiesCount: 4 },
+  { id: 17, number: 17, name: "Bakkalam", name_ml: "ബക്കളം", councillor: "C. H. Musthafa", phone: "9447123017", population: 1400, coordinates: [11.9974, 75.3708], facilitiesCount: 5 },
+  { id: 18, number: 18, name: "Kadambur Link", name_ml: "കടമ്പൂർ ലിങ്ക്", councillor: "M. Savithri", phone: "9447123018", population: 1150, coordinates: [11.9953, 75.3783], facilitiesCount: 3 },
+  { id: 19, number: 19, name: "Kinfra Industrial", name_ml: "കിൻഫ്ര വ്യവസായ വാർഡ്", councillor: "A. P. Soman", phone: "9447123019", population: 1050, coordinates: [11.992, 75.378], facilitiesCount: 7 },
+  { id: 20, number: 20, name: "Engineering College", name_ml: "എൻജിനീയറിങ് കോളേജ് വാർഡ്", councillor: "Dr. P. Radhika", phone: "9447123020", population: 1620, coordinates: [11.9858, 75.3819], facilitiesCount: 9 },
+  { id: 21, number: 21, name: "NIFT Campus Ward", name_ml: "നിഫ്റ്റ് കാമ്പസ് വാർഡ്", councillor: "K. Preethi", phone: "9447123021", population: 1480, coordinates: [11.9892, 75.3795], facilitiesCount: 8 },
+  { id: 22, number: 22, name: "University Campus", name_ml: "സർവ്വകലാശാല കാമ്പസ് വാർഡ്", councillor: "S. Manoj", phone: "9447123022", population: 1520, coordinates: [11.9824, 75.3654], facilitiesCount: 7 },
+  { id: 23, number: 23, name: "Kalliasseri Boundary", name_ml: "കല്യാശ്ശേരി അതിർത്തി", councillor: "V. Chandran", phone: "9447123023", population: 1270, coordinates: [11.9686, 75.3443], facilitiesCount: 4 },
+  { id: 24, number: 24, name: "Valapattanam Riverbank", name_ml: "വളപട്ടണം റിവർഫ്രണ്ട്", councillor: "M. Sujatha", phone: "9447123024", population: 1310, coordinates: [11.978, 75.398], facilitiesCount: 5 },
+  { id: 25, number: 25, name: "Muthappan Kavu", name_ml: "മുത്തപ്പൻ കാവ്", councillor: "T. Haridasan", phone: "9447123025", population: 1220, coordinates: [11.9839, 75.3987], facilitiesCount: 6 },
+  { id: 26, number: 26, name: "Pazhayangadi Road", name_ml: "പഴയങ്ങാടി റോഡ്", councillor: "K. Prasanna", phone: "9447123026", population: 1190, coordinates: [12.0129, 75.3417], facilitiesCount: 3 },
+  { id: 27, number: 27, name: "Morazha South", name_ml: "മൊറാഴ തെക്ക്", councillor: "P. Raghu", phone: "9447123027", population: 1260, coordinates: [11.982, 75.3487], facilitiesCount: 4 },
+  { id: 28, number: 28, name: "Anthoor Town Gate", name_ml: "ആന്തൂർ ടൗൺ ഗേറ്റ്", councillor: "V. Sumathy", phone: "9447123028", population: 1380, coordinates: [11.9856, 75.3786], facilitiesCount: 8 }
 ];
 
 export const FACILITIES = [
@@ -146,7 +152,7 @@ export const FACILITIES = [
     wardId: 20,
     wardName: "Engineering College Ward",
     address: "Mangattuparamba, Dharmasala, Anthoor Municipality, Kannur - 670563",
-    coordinates: [11.9745, 75.3860],
+    coordinates: [11.9858, 75.3819],
     phone: "0497 2780226",
     email: "principal@gcek.ac.in",
     website: "https://www.gcek.ac.in",
@@ -166,7 +172,7 @@ export const FACILITIES = [
     wardId: 21,
     wardName: "NIFT Campus Ward",
     address: "Dharmasala, Mangattuparamba, Anthoor, Kannur - 670562",
-    coordinates: [11.9680, 75.3895],
+    coordinates: [11.9892, 75.3795],
     phone: "0497 2784780",
     email: "director.kannur@nift.ac.in",
     website: "https://www.nift.ac.in/kannur",
@@ -186,7 +192,7 @@ export const FACILITIES = [
     wardId: 22,
     wardName: "University Campus Ward",
     address: "Mangattuparamba, Anthoor Municipality, Kannur - 670567",
-    coordinates: [11.9650, 75.3880],
+    coordinates: [11.9824, 75.3654],
     phone: "0497 2783922",
     email: "mangattuparambacampus@kannuruniv.ac.in",
     website: "https://www.kannuruniversity.ac.in",
@@ -206,7 +212,7 @@ export const FACILITIES = [
     wardId: 7,
     wardName: "Dharmasala Central",
     address: "Dharmasala, Anthoor Municipality, Kannur - 670567",
-    coordinates: [11.9725, 75.3840],
+    coordinates: [11.9862, 75.3788],
     phone: "0497 2780005",
     email: "anthoormunicipality@gmail.com",
     website: "https://lsgkerala.gov.in/en/lbe/anthoor",
@@ -226,7 +232,7 @@ export const FACILITIES = [
     wardId: 10,
     wardName: "Parassinikkadavu Temple",
     address: "Parassinikkadavu, Valapattanam Riverbank, Anthoor, Kannur - 670563",
-    coordinates: [11.9592, 75.4072],
+    coordinates: [11.9828, 75.4013],
     phone: "0497 2780722",
     email: "info@parassinikadavumuthappan.com",
     website: "https://www.parassinikadavumuthappan.com",
@@ -246,7 +252,7 @@ export const FACILITIES = [
     wardId: 9,
     wardName: "Parassinikkadavu North",
     address: "Parassinikkadavu, Anthoor Municipality, Kannur - 670563",
-    coordinates: [11.9635, 75.4010],
+    coordinates: [11.9893, 75.3885],
     phone: "0497 2780442",
     email: "snakeparkkannur@gmail.com",
     website: "https://snakepark.org",
@@ -266,7 +272,7 @@ export const FACILITIES = [
     wardId: 11,
     wardName: "Vismaya Junction",
     address: "Parassinikkadavu PO, Anthoor, Kannur - 670563",
-    coordinates: [11.9655, 75.3980],
+    coordinates: [11.99, 75.3937],
     phone: "0497 2782850",
     email: "vismayakannur@gmail.com",
     website: "https://vismayakannur.com",
@@ -286,7 +292,7 @@ export const FACILITIES = [
     wardId: 4,
     wardName: "Vellikkeel",
     address: "Vellikkeel, Anthoor Municipality, Kannur - 670567",
-    coordinates: [12.0010, 75.3520],
+    coordinates: [12.0005, 75.3412],
     phone: "0497 2781190",
     email: "vellikkeel.ecotourism@kerala.gov.in",
     website: "https://keralatourism.org",
@@ -306,7 +312,7 @@ export const FACILITIES = [
     wardId: 6,
     wardName: "Anthoor North",
     address: "Near Dharmasala Link Road, Anthoor - 670567",
-    coordinates: [11.9780, 75.3810],
+    coordinates: [11.9865, 75.3784],
     phone: "0497 2780108",
     email: "chcanthoor@gmail.com",
     website: "https://dhs.kerala.gov.in",
@@ -326,7 +332,7 @@ export const FACILITIES = [
     wardId: 10,
     wardName: "Parassinikkadavu Temple",
     address: "Parassinikkadavu, Anthoor, Kannur - 670563",
-    coordinates: [11.9610, 75.4020],
+    coordinates: [11.9891, 75.3882],
     phone: "0497 2780249",
     email: "pamckannur@yahoo.co.in",
     website: "https://ayurvedacollege.ac.in",
@@ -346,7 +352,7 @@ export const FACILITIES = [
     wardId: 1,
     wardName: "Morazha Central",
     address: "Morazha Post, Anthoor Municipality - 670567",
-    coordinates: [11.9880, 75.3640],
+    coordinates: [11.9983, 75.341],
     phone: "0497 2783020",
     email: "phcmorazha@gmail.com",
     website: "https://dhs.kerala.gov.in",
@@ -366,7 +372,7 @@ export const FACILITIES = [
     wardId: 7,
     wardName: "Dharmasala Central",
     address: "NH 66 Junction, Dharmasala, Anthoor - 670567",
-    coordinates: [11.9730, 75.3850],
+    coordinates: [11.9865, 75.3763],
     phone: "0497 2781100",
     email: "anthoor.transport@gmail.com",
     website: "https://keralartc.com",
@@ -386,7 +392,7 @@ export const FACILITIES = [
     wardId: 7,
     wardName: "Dharmasala Central",
     address: "NH 66 Bypass, Dharmasala, Anthoor - 670567",
-    coordinates: [11.9715, 75.3855],
+    coordinates: [11.9848, 75.3764],
     phone: "0497 2780330",
     email: "iocldharmasala@gmail.com",
     website: "https://iocl.com",
@@ -406,7 +412,7 @@ export const FACILITIES = [
     wardId: 7,
     wardName: "Dharmasala Central",
     address: "Dharmasala Town, Anthoor - 670567",
-    coordinates: [11.9738, 75.3845],
+    coordinates: [11.9865, 75.3759],
     phone: "0497 2780288",
     email: "sbi.10543@sbi.co.in",
     website: "https://sbi.co.in",
@@ -426,7 +432,7 @@ export const FACILITIES = [
     wardId: 28,
     wardName: "Anthoor Town Gate",
     address: "Near Municipal Stadium, Dharmasala, Anthoor - 670567",
-    coordinates: [11.9750, 75.3835],
+    coordinates: [11.9853, 75.3796],
     phone: "0497 2780277",
     email: "ksebdharmasala@gmail.com",
     website: "https://kseb.in",
@@ -446,7 +452,7 @@ export const FACILITIES = [
     wardId: 17,
     wardName: "Bakkalam",
     address: "NH 66 Corridor, Bakkalam-Taliparamba Route - 670141",
-    coordinates: [11.9850, 75.3780],
+    coordinates: [12.015, 75.366],
     phone: "0497 2780101",
     email: "firetaliparamba@kerala.gov.in",
     website: "https://fire.kerala.gov.in",
@@ -466,7 +472,7 @@ export const FACILITIES = [
     wardId: 7,
     wardName: "Dharmasala Central",
     address: "Opposite Municipal Office, Dharmasala - 670567",
-    coordinates: [11.9720, 75.3848],
+    coordinates: [11.9864, 75.3769],
     phone: "0497 2781420",
     email: "akshaya.anthoor@gmail.com",
     website: "https://akshaya.kerala.gov.in",
@@ -486,7 +492,7 @@ export const FACILITIES = [
     wardId: 19,
     wardName: "Kinfra Industrial",
     address: "Morazha Road, Anthoor Municipality - 670567",
-    coordinates: [11.9820, 75.3910],
+    coordinates: [11.992, 75.378],
     phone: "0497 2782290",
     email: "kinfraanthoor@gmail.com",
     website: "https://kinfra.org",
@@ -506,7 +512,7 @@ export const FACILITIES = [
     wardId: 1,
     wardName: "Morazha Central",
     address: "Morazha Post, Anthoor, Kannur - 670567",
-    coordinates: [11.9860, 75.3620],
+    coordinates: [11.9872, 75.3522],
     phone: "0497 2783000",
     email: "heritage@anthoor360.kerala.gov.in",
     website: "https://lsgkerala.gov.in",
@@ -526,7 +532,7 @@ export const FACILITIES = [
     wardId: 28,
     wardName: "Anthoor Town Gate",
     address: "Sports Avenue, Dharmasala, Anthoor - 670567",
-    coordinates: [11.9700, 75.3820],
+    coordinates: [11.9856, 75.3786],
     phone: "0497 2781555",
     email: "sports.anthoor@gmail.com",
     website: "https://sports.kerala.gov.in",
@@ -712,7 +718,7 @@ export const MUNICIPAL_PROJECTS = [
     expectedCompletion: "Dec 2026",
     contractor: "Kerala Urban Infrastructure Dev. Corp.",
     description: "State-of-the-art commuter amenities, solar-powered LED displays, sheltered passenger seating, automated ticket kiosk, and dual-gun fast EV chargers on NH 66.",
-    coordinates: [11.9732, 75.3852]
+    coordinates: [11.9865, 75.3763]
   },
   {
     id: "proj-2",
@@ -728,7 +734,7 @@ export const MUNICIPAL_PROJECTS = [
     expectedCompletion: "March 2027",
     contractor: "District Tourism Promotion Council & Anthoor Municipality",
     description: "Extending the eco-friendly mangrove wooden bridge by 450 meters, biological fencing, solar illumination, and bio-toilets for sustainable ecotourism.",
-    coordinates: [12.0010, 75.3520]
+    coordinates: [12.0005, 75.3412]
   },
   {
     id: "proj-3",
@@ -744,7 +750,7 @@ export const MUNICIPAL_PROJECTS = [
     expectedCompletion: "Jan 2027",
     contractor: "Kerala Water Authority & Anthoor Municipal Council",
     description: "Laying 18 km distribution network providing 100% functional tap water connections to 2,400 households across wards 1, 2, 3, and 5.",
-    coordinates: [11.9860, 75.3620]
+    coordinates: [11.9872, 75.3522]
   },
   {
     id: "proj-4",
@@ -760,7 +766,7 @@ export const MUNICIPAL_PROJECTS = [
     expectedCompletion: "Aug 2024",
     contractor: "Anthoor Public Works Section",
     description: "High-speed Wi-Fi enabled public library with dedicated study cabins for PSC/Civil Services aspirants, digital book repositories, and seminar hall.",
-    coordinates: [11.9680, 75.3890]
+    coordinates: [11.9838, 75.3667]
   },
   {
     id: "proj-5",
@@ -776,7 +782,7 @@ export const MUNICIPAL_PROJECTS = [
     expectedCompletion: "May 2024",
     contractor: "ANERT Kerala & Anthoor Municipality",
     description: "Installed over 1,450 automatic dusk-to-dawn energy-saving LED streetlights connected to smart monitoring timers.",
-    coordinates: [11.9725, 75.3840]
+    coordinates: [11.9862, 75.3788]
   }
 ];
 

@@ -206,7 +206,7 @@ export default function MapView({
         },
         () => {
           // If browser denies permission or in local testing, center around Dharmasala
-          const fallbackLoc = [11.9734, 75.3852];
+          const fallbackLoc = [11.9865, 75.3780];
           setUserLocation(fallbackLoc);
           setNearMeActive(true);
           setMapCenter(fallbackLoc);
@@ -368,11 +368,11 @@ export default function MapView({
           {/* Quick Hub Navigation */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px', overflowX: 'auto' }}>
             {[
-              { name: 'Dharmasala', name_ml: 'ധർമ്മശാല', coords: [11.9734, 75.3852], zoom: 15 },
-              { name: 'Parassinikkadavu', name_ml: 'പറശ്ശിനിക്കടവ്', coords: [11.9592, 75.4072], zoom: 16 },
-              { name: 'Mangattuparamba', name_ml: 'മാങ്ങാട്ടുപറമ്പ്', coords: [11.9680, 75.3895], zoom: 15 },
-              { name: 'Vellikkeel', name_ml: 'വെള്ളിക്കീൽ', coords: [12.0010, 75.3520], zoom: 15 },
-              { name: 'Morazha', name_ml: 'മൊറാഴ', coords: [11.9860, 75.3620], zoom: 15 }
+              { name: 'Dharmasala', name_ml: 'ധർമ്മശാല', coords: [11.9865, 75.3765], zoom: 15 },
+              { name: 'Parassinikkadavu', name_ml: 'പറശ്ശിനിക്കടവ്', coords: [11.9828, 75.4013], zoom: 16 },
+              { name: 'Mangattuparamba', name_ml: 'മാങ്ങാട്ടുപറമ്പ്', coords: [11.9858, 75.3819], zoom: 15 },
+              { name: 'Vellikkeel', name_ml: 'വെള്ളിക്കീൽ', coords: [12.0005, 75.3412], zoom: 15 },
+              { name: 'Morazha', name_ml: 'മൊറാഴ', coords: [11.9872, 75.3522], zoom: 15 }
             ].map(hub => (
               <button
                 key={hub.name}
@@ -765,8 +765,8 @@ export default function MapView({
         minZoom={12}
         maxZoom={18}
         maxBounds={[
-          [11.9200, 75.3100],
-          [12.0450, 75.4500]
+          [11.9300, 75.3200],
+          [12.0500, 75.4300]
         ]}
         maxBoundsViscosity={1.0}
         scrollWheelZoom={true}

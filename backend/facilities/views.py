@@ -99,8 +99,8 @@ class FacilityViewSet(viewsets.ModelViewSet):
     def near_location(self, request):
         """Find facilities around arbitrary GPS coordinates (Near Me query)"""
         try:
-            lat = float(request.query_params.get('lat', 11.9734))
-            lng = float(request.query_params.get('lng', 75.3852))
+            lat = float(request.query_params.get('lat', 11.9865))
+            lng = float(request.query_params.get('lng', 75.3780))
             radius_km = float(request.query_params.get('radius', 5.0))
             limit = int(request.query_params.get('limit', 20))
         except (ValueError, TypeError):

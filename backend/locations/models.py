@@ -7,8 +7,8 @@ class Ward(models.Model):
     councillor = models.CharField(max_length=150)
     phone = models.CharField(max_length=50, blank=True)
     population = models.PositiveIntegerField(default=1000)
-    latitude = models.FloatField(default=11.9734)
-    longitude = models.FloatField(default=75.3852)
+    latitude = models.FloatField(default=11.9865)
+    longitude = models.FloatField(default=75.3780)
     boundary_geojson = models.JSONField(null=True, blank=True)
 
     def __str__(self):

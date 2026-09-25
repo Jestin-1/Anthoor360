@@ -11,7 +11,7 @@
 ## 🌟 Key Features
 
 ### 1. Interactive GIS Map Explorer (`/map`)
-- **Interactive OpenStreetMap + Leaflet integration** centered at Anthoor (`11.9734° N, 75.3852° E`).
+- **Interactive OpenStreetMap + Leaflet integration** centered at Anthoor (`11.9865° N, 75.3780° E`).
 - **Ward boundary polygon overlays** and 28 electoral ward containment.
 - **Dynamic Category Pins**: Education, Healthcare, Government, Transport & Fuel, Tourism, Commercial, and Public Infrastructure.
 - **"Near Me" GPS Radar**: Live browser geolocation with radius filtering.

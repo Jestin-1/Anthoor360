@@ -73,11 +73,11 @@ export default function MapControls({
   ];
 
   const anthoorHubs = [
-    { name: 'Dharmasala (HQ)', name_ml: 'ധർമ്മശാല', coords: [11.9734, 75.3852], zoom: 15 },
-    { name: 'Parassinikkadavu', name_ml: 'പറശ്ശിനിക്കടവ്', coords: [11.9592, 75.4072], zoom: 16 },
-    { name: 'Mangattuparamba', name_ml: 'മാങ്ങാട്ടുപറമ്പ്', coords: [11.9680, 75.3895], zoom: 15 },
-    { name: 'Vellikkeel Eco Park', name_ml: 'വെള്ളിക്കീൽ', coords: [12.0010, 75.3520], zoom: 15 },
-    { name: 'Morazha Heritage', name_ml: 'മൊറാഴ', coords: [11.9860, 75.3620], zoom: 15 }
+    { name: 'Dharmasala (HQ)', name_ml: 'ധർമ്മശാല', coords: [11.9865, 75.3765], zoom: 15 },
+    { name: 'Parassinikkadavu', name_ml: 'പറശ്ശിനിക്കടവ്', coords: [11.9828, 75.4013], zoom: 16 },
+    { name: 'Mangattuparamba', name_ml: 'മാങ്ങാട്ടുപറമ്പ്', coords: [11.9858, 75.3819], zoom: 15 },
+    { name: 'Vellikkeel Eco Park', name_ml: 'വെള്ളിക്കീൽ', coords: [12.0005, 75.3412], zoom: 15 },
+    { name: 'Morazha Heritage', name_ml: 'മൊറാഴ', coords: [11.9872, 75.3522], zoom: 15 }
   ];
 
   const basemapList = [

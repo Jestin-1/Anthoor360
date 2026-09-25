@@ -382,7 +382,7 @@ export default function HomePage({ onOpenSearch: _onOpenSearch }) {
                         {language === 'ml' ? 'ധർമ്മശാല, ആന്തൂർ നഗരസഭ' : 'Dharmasala, Anthoor Municipality'}
                       </div>
                       <div style={{ fontSize: '0.74rem', color: 'var(--text-muted)' }}>
-                        11.9734° N, 75.3852° E • 28 Active Wards Mapped
+                        11.9865° N, 75.3780° E • 28 Active Wards Mapped
                       </div>
                     </div>
                   </div>
